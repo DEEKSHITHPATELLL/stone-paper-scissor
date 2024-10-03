@@ -85,3 +85,79 @@ p
     line-height: 5rem;
     cursor: pointer;
 }
+@media (max-width: 1024px) {
+    .choice {
+        width: 130px;
+        height: 130px;
+    }
+
+    img {
+        width: 120px;
+        border-radius: 4rem;
+    }
+
+    #p1, #p2 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    #msg {
+        font-size: 25px;
+        height: 12vmin;
+        width: 90vmin;
+    }
+}
+@media (max-width: 768px) {
+    .choices {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .choice {
+        width: 100px;
+        height: 100px;
+    }
+
+    img {
+        width: 90px;
+        border-radius: 3rem;
+    }
+
+    #p1, #p2 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    #msg {
+        font-size: 20px;
+        height: 15vmin;
+        width: 100vmin;
+    }
+}
+@media (min-width: 1025px) {
+    .choice {
+        width: 165px;
+        height: 165px;
+    }
+
+    img {
+        width: 150px;
+        border-radius: 5rem;
+    }
+
+    #p1, #p2 {
+        font-size: 4rem;
+    }
+
+    #msg {
+        font-size: 30px;
+        height: 10vmin;
+        width: 80vmin;
+    }
+}
